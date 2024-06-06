@@ -9,7 +9,7 @@ import errno
 import warnings
 
 try:
-    import Image
+    import Image # type: ignore
 except ImportError:
     from PIL import Image
 
